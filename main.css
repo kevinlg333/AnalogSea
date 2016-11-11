@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #5f97ef;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.logo {
+	height: 35px;
+	position: relative;
+	left: 370px;
+	top: 20px;
+}
+
+.signup-form {
+	width: 400px;
+	height: 500px;
+	padding: 0 40px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 53px;
+	background-color: white;
+
+}
+
+.heading {
+	text-align: center;
+	padding-top: 40px;
+}
+
+.rectangle {
+	width: 320px;
+	height: 55px;
+	padding: 15px;
+	border: 2px solid gray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+input.rectangle {
+	color: #c2d6d6;
+	background-color: #f0f5f5;
+}
+
+fieldset.no-border {
+	border-style: none;
+}
+
+.submit-button {
+	background-color: #00cc66;
+	color: white;
+	font-size: 21px;
+}
+
+a.forgot-password {
+	text-align: center;
+	color: gray;
+}
+
+.account {
+	color: white;
+	text-align: center;
+}
