@@ -10,9 +10,10 @@ body {
 
 .logo {
 	height: 35px;
-	position: relative;
-	left: 370px;
-	top: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 36px;
 }
 
 .signup-form {
@@ -29,6 +30,8 @@ body {
 .heading {
 	text-align: center;
 	padding-top: 40px;
+	font-weight: lighter;
+	color: gray;
 }
 
 .rectangle {
@@ -41,6 +44,10 @@ body {
 	border-radius: 5px;
 }
 
+.input-font {
+	font-size: 16px;
+}
+
 input.rectangle {
 	color: #c2d6d6;
 	background-color: #f0f5f5;
@@ -48,6 +55,7 @@ input.rectangle {
 
 fieldset.no-border {
 	border-style: none;
+	margin-left: -12px;
 }
 
 .submit-button {
@@ -56,9 +64,14 @@ fieldset.no-border {
 	font-size: 21px;
 }
 
+.submit-button:hover {
+	background-color: #1f7f3a;
+}
+
 a.forgot-password {
 	text-align: center;
 	color: gray;
+	display: block;
 }
 
 .account {
